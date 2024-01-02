@@ -1,9 +1,9 @@
 "use client";
 
-import style from "@/app/(beforeLogin)/@modal/login.module.css";
+import style from "./login.module.css";
 import { useState } from "react";
 
-export default function modal() {
+export default function LoginModal() {
   const [id, setId] = useState();
   const [password, setPassword] = useState();
   const [message, setMessage] = useState();
